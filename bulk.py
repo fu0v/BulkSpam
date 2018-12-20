@@ -9,7 +9,7 @@ heade = random.choice(hea)
 header = {'user-agent': (heade)}
 def kedua(email):
   global f
-  f = 45
+  f = 2
   while True:
     f +=1
     url2 = "https://www2.bulksms.com/forgot_password/recover_usernames/"
@@ -53,7 +53,7 @@ def Tod():
         }
         url = ('https://www2.bulksms.com/register/')
         data = requests.request("post", url, headers=header, data=key)
-        taa = data.text
+
         c +=1
         if 'You have been successfully registered' in data.text:
             print ("\033[31;5m[\033[33;5m" + str(c) + "\033[31;5m]\033[32;5mBerhasil Registrasi: \033[37;5m" + (em))

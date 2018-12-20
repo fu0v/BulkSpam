@@ -1,3 +1,5 @@
+#Autor: Bahasa Python
+#:Voss
 import requests, sys, os, random
 os.system("clear")
 os.system('figlet "BulkSpam" |lolcat')

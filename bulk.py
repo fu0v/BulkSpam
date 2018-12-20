@@ -9,7 +9,7 @@ wikwik =  ["81243526382", "812346257388", "827362625362", "81243264625", "821364
 
 def kedua(email):
   global f
-  f = 2
+  f = 1
   while True:
     f +=1
     url2 = "https://www2.bulksms.com/forgot_password/recover_usernames/"

@@ -1,4 +1,4 @@
-import requests, threading, sys, os, random
+import requests, sys, os, random
 os.system("clear")
 os.system('figlet "BulkSpam" |lolcat')
 print 55*"\033[33;5m="
